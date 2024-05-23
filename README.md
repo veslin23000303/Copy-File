@@ -19,18 +19,21 @@ Copy the content of text file to empty file using write function.
 
 
 ## PROGRAM:
+```
 #Copy contents of a file 
-#Developed by: Arularasi U
-#Register Number:212223100002
+#Developed by: VESLIN ANISH A
+#Register Number:212223240175
 with open("text1.txt","r") as fp:
     msg1=fp.read()
 with open("copytxt","w") as fp1:
     fp1.write(msg1)
+```
 
 
 
 ### OUTPUT:
-![alt text](image.png)
+![Screenshot 2024-05-23 153120](https://github.com/veslin23000303/Copy-File/assets/151148539/e0104c52-cc02-4c18-afea-e0bbbde91be2)
+
 
 
 
